@@ -1,0 +1,33 @@
+# Node modules (for both frontend and backend)
+**/node_modules/
+
+# .env files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files (VS Code, WebStorm, etc.)
+.vscode/
+.idea/
+
+# Build directories (for frontend and backend build artifacts)
+build/
+dist/
+
+# npm package lock files (optional, if you don't want to track them)
+# package-lock.json
+# yarn.lock
+
+# Coverage folder (for test coverage reports)
+coverage/
+
+# .env files that may include sensitive information (optional, for different environments)
+*.env.local
+*.env.production
+*.env.development

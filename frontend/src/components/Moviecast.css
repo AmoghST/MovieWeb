@@ -1,0 +1,46 @@
+.App {
+    font-family: Arial, sans-serif;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .cast-section {
+    margin-top: 20px;
+  }
+  
+  .cast-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .cast-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cast-card {
+    background-color: #1b1b1b;
+    border-radius: 5px;
+    width: 202px;
+    text-align: center;
+  }
+  
+  .cast-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cast-details p {
+    margin: 5px 0;
+    color: #ccc;
+  }
+  
